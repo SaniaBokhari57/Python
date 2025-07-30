@@ -34,9 +34,9 @@ Feature scaling via StandardScaler.
 
 2. Modeling
 Three supervised ML models were trained using GridSearchCV:
-✅ Random Forest
-✅ XGBoost
-✅ K-Nearest Neighbors (KNN)
+- Random Forest
+- XGBoost
+- K-Nearest Neighbors (KNN)
 
 Each model was evaluated using:
 Cross-validation accuracy
@@ -58,7 +58,7 @@ Model	Test Accuracy
 - XGBoost	77.99%
 - KNN	74.92%
 
-✅ XGBoost performed best in terms of test set accuracy.
+** XGBoost performed best in terms of test set accuracy.** 
 
 # Key Cluster Profiles & Insights
 Cluster 0 – “Mid‑Tenure, Internet Users”
@@ -142,12 +142,12 @@ Confirmed the two-group structure via Ward linkage + dendrogram
 Aligned closely with K-Means segmentation.
 
 # Key Insights
-✅ Supervised Learning:
+- Supervised Learning:
 Naive Bayes is most effective for identifying at-risk patients.
 Top predictors: BMI, Cholesterol, Systolic/Diastolic BP.
 Lifestyle variables (smoking, diet) played significant secondary roles.
 
-✅ Clustering:
+- Clustering:
 Patient population naturally separates into low-risk and high-risk groups.
 Enables preemptive monitoring and tailored intervention for cluster 1 individuals.
 
